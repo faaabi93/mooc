@@ -1,6 +1,6 @@
-# [Building AI](https://buildingai.elementsofai.com/)
+# [Java Programming - MOOC](https://java-programming.mooc.fi/)
 
-This repository contains my solutions for the MOOC online course.
+This repository contains my solutions for the MOOC - Java Programming online course.
 Created by the [University of Helsinki](https://java-programming.mooc.fi)  
   
 
