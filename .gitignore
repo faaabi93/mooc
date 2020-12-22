@@ -24,3 +24,4 @@ hs_err_pid*
 
 # Others
 .DS_Storage
+.DS_Store
