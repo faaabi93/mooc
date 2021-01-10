@@ -27,10 +27,17 @@ Both courses (see next paragraph) are an equivalent of 5 ECTS (6-week course).
 | [Part 5](https://java-programming.mooc.fi/part-5) | Learning OOP, Overloading (functions/constructors), primitive & reference variables |
 | [Part 6](https://java-programming.mooc.fi/part-6) | Objects in lists / lists as part of objects, Separating UI & logic, Testing Intro, complex programs |
 | [Part 7](https://java-programming.mooc.fi/part-7) | Programming paradigms, Algorithms, Larger Programming Exercises |
-  
+
 
 ## Notes  
 Sometimes the exercises only contained a single file.  
 For better readability I copied the files into an directory containing all the files of the respective parts.  
-This is the reason IDEs show errors, when "running" a file.  
+This is the reason IDEs show errors, when "running" a file.   
+
   
+
+Also: Sometimes, when I got stuck while completing my exercises, I looked up other people's solutions. 
+Thats why you are here, maybe.  
+
+But the point in doing the MOOC is the learning itsself. If you only care about a certificate, then go ahead and copy my solutions to hand them in. But you won't learn a bit by doing so. The part that lets you learn things is the struggling and thinking. Not only while programming, but also in life.
+
