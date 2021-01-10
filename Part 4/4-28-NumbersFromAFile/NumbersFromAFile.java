@@ -26,6 +26,8 @@ public class NumbersFromAFile {
             System.out.println("File not found!");
         }
         System.out.println("Numbers: " + String.valueOf(count));
+
+        scanner.close();
     }
 
 }

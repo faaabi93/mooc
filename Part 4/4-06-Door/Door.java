@@ -1,7 +1,7 @@
 public class Door {
     
     public Door(){
-
+        // emtpy constructor
     }
 
     public void knock(){

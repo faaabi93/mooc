@@ -8,6 +8,9 @@ public class MainProgram {
 
         // Follow the instructions carefully 
         // and run the tests.
+
+        // Closing the scanner.
+        scanner.close();
     }
 
 }

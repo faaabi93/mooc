@@ -30,5 +30,7 @@ public class MainProgram {
 
         System.out.println("Paul: " + paulsCard);
         System.out.println("Matt: " + mattsCard);
+
+        scanner.close();
     }
 }

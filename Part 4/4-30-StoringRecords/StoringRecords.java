@@ -18,6 +18,8 @@ public class StoringRecords {
             System.out.println(person);
 
         }
+
+        scan.close();
     }
 
     public static ArrayList<Person> readRecordsFromFile(String file) {

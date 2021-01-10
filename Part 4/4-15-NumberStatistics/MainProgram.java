@@ -36,5 +36,7 @@ public class MainProgram {
                 oddNumbers.addNumber(input);
             }
         }
+        // Closing the scanner to get rid of the error.
+        scanner.close();
     }
 }

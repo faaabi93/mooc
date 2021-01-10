@@ -31,5 +31,6 @@ public class PersonalInformationCollection {
             System.out.println(element.getFirstName() + " " + element.getLastName());
         }
 
+        scanner.close();
     }
 }

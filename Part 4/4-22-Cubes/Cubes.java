@@ -17,5 +17,7 @@ public class Cubes {
             int result = intInput * intInput * intInput;
             System.out.println(result);
         }
+
+        scanner.close();
     }
 }

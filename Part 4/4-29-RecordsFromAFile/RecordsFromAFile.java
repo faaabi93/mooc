@@ -23,5 +23,7 @@ public class RecordsFromAFile {
         } catch (Exception e) {
             System.out.println("File not found!");
         }
+
+        scanner.close();
     }
 }

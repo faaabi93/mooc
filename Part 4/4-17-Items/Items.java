@@ -23,5 +23,7 @@ public class Items {
         for(Item element: items){
             System.out.println(element);
         }
+        
+        scanner.close();
     }
 }

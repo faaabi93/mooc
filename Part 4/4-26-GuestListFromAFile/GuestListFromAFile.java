@@ -38,5 +38,7 @@ public class GuestListFromAFile {
         }
 
         System.out.println("Thank you!");
+
+        scanner.close();
     }
 }

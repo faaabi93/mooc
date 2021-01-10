@@ -12,13 +12,15 @@ public class SportStatistics {
         System.out.println("Team:");
         String team = scan.nextLine();
 
-        try(Scanner scanner = new Scanner(Paths.get(file))){
-            while(scanner.hasNextLine()){
+        try(Scanner scanner = new Scanner(Paths.get(file))) {
+            while(scanner.hasNextLine()) {
                 
             }
         } catch (Exception e){
             System.out.println("File not found!");
         }
+
+        scan.close();
     }
 
 }
