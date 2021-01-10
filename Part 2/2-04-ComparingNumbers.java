@@ -14,5 +14,8 @@ public class ComparingNumbers {
         } else {
             System.out.println(first + " is equal to " + second + ".");
         }
+
+        // Closing the scanner, so the error disappears
+        scanner.close();
     }
 }

@@ -9,5 +9,8 @@ public class SquareRootOfSum {
         int second = Integer.valueOf(scanner.nextLine());
         double sqrt = Math.sqrt(first + second);
         System.out.println(sqrt);
+
+        // Closing the scanner, so the error disappears
+        scanner.close();
     }
 }

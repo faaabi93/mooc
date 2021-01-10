@@ -28,5 +28,7 @@ public class AverageOfPositiveNumbers {
             System.out.println(1.0 * sum / count);
         }
 
+        // Closing the scanner, so the error disappears
+        scanner.close();
     }
 }

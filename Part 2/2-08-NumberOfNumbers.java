@@ -19,5 +19,8 @@ public class NumberOfNumbers {
         }
 
         System.out.println("Number of numbers: " + count);
+
+        // Closing the scanner, so the error disappears
+        scanner.close();
     }
 }

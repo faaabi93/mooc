@@ -14,6 +14,9 @@ public class Reprint {
             printText();
             i++;
         }
+
+        // Closing the scanner, so the error disappears
+        scanner.close();
     }
     
     // Don't change the next line that defines the method!

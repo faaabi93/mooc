@@ -18,5 +18,8 @@ public class SumOfNumbers {
         }
 
         System.out.println("Sum of the numbers: " + sum);
+
+        // Closing the scanner, so the error disappears
+        scanner.close();
     }
 }

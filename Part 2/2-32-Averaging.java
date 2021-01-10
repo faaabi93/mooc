@@ -13,7 +13,8 @@ public class Averaging {
     }
 
     public static void main(String[] args) {
-        double result = average(4, 3, 6, 1);
-        System.out.println("Average: " + result);
+        int sum = sum(4, 3, 6, 1);
+        double average = average(4, 3, 6, 1);
+        System.out.println("Average: " + average);
     }
 }

@@ -17,5 +17,8 @@ public class OnlyPositives {
             }
             System.out.println(number * number);
         }
+
+        // Closing the scanner, so the error disappears
+        scanner.close();
     }
 }

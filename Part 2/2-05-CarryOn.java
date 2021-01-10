@@ -12,5 +12,8 @@ public class CarryOn {
                 break;
             }
         }
+
+        // Closing the scanner, so the error disappears
+        scanner.close();
     }
 }

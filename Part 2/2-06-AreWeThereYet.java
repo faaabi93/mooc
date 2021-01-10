@@ -12,5 +12,8 @@ public class AreWeThereYet {
                 break;
             }
         }
+
+        // Closing the scanner, so the error disappears
+        scanner.close();
     }
 }

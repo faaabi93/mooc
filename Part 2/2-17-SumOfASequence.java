@@ -14,5 +14,8 @@ public class SumOfASequence {
             total += i;
         }
         System.out.println(total);
+
+        // Closing the scanner, so the error disappears
+        scanner.close();
     }
 }

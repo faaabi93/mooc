@@ -10,5 +10,8 @@ public class CountingToHundred {
         for (int i = input; i <= 100; i++) {
             System.out.println(i);
         }
+
+        // Closing the scanner, so the error disappears
+        scanner.close();
     }
 }

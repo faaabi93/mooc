@@ -9,5 +9,8 @@ public class Counting {
         for (int i = 0; i <= input; i++) {
             System.out.println(i);
         }
+
+        // Closing the scanner, so the error disappears
+        scanner.close();
     }
 }

@@ -16,5 +16,8 @@ public class SumOfASequenceTheSequel {
         }
 
         System.out.println("The sum is: " + count);
+
+        // Closing the scanner, so the error disappears
+        scanner.close();
     }
 }

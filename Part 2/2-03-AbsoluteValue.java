@@ -12,5 +12,8 @@ public class AbsoluteValue {
         } else {
             System.out.println(a);
         }
+
+        // Closing the scanner, so the error disappears
+        scanner.close();
     }
 }

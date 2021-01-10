@@ -15,5 +15,8 @@ public class FromWhereToWhere {
         for (int i = input2; i <= input; i++) {
             System.out.println(i);
         }
+
+        // Closing the scanner, so the error disappears
+        scanner.close();
     }
 }

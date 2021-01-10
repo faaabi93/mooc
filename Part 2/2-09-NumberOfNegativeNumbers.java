@@ -22,5 +22,8 @@ public class NumberOfNegativeNumbers {
         }
 
         System.out.println("Number of negative numbers: " + count);
+
+        // Closing the scanner, so the error disappears
+        scanner.close();
     }
 }
