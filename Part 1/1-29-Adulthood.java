@@ -14,5 +14,8 @@ public class Adulthood {
         } else {
             System.out.println("You are not an adult");
         }
+
+        // Closing the scanner, so the error disappears
+        scanner.close();
     }
 }

@@ -16,5 +16,7 @@ public class SimpleCalculator {
         System.out.println(first + " * " + second + " = " + (first * second));
         System.out.println(first + " / " + second + " = " + (1.0 * first / second));
 
+        // Closing the scanner, so the error disappears
+        scanner.close();
     }
 }

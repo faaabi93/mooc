@@ -15,5 +15,7 @@ public class AverageOfThreeNumbers {
         int third = Integer.valueOf(scanner.nextLine());
         System.out.println("The average is " + (1.0 * (first + second + third) / 3));
 
+        // Closing the scanner, so the error disappears
+        scanner.close();
     }
 }

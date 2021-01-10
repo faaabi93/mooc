@@ -10,5 +10,7 @@ public class DoubleInput {
         System.out.println("Give a number:");
         double value = Double.valueOf(scanner.nextLine());
         System.out.println("You gave the number " + value);
+        // Closing the scanner, so the error disappears
+        scanner.close();
     }
 }

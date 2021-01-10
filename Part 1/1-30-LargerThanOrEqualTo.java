@@ -17,5 +17,8 @@ public class LargerThanOrEqualTo {
         } else {
             System.out.println("The numbers are equal!");
         }
+        
+        // Closing the scanner, so the error disappears
+        scanner.close();
     }
 }

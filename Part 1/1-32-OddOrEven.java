@@ -14,6 +14,10 @@ public class OddOrEven {
         } else {
             System.out.println("The number " + number + " is odd.");
         }
+
+        // Closing the scanner, so the error disappears
+        scanner.close();
+        
         // HINT:
         // You can find out if a number is even or odd easily using the modulo operator %
         // Try the following commands to see what they print

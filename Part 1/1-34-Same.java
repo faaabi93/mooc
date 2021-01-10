@@ -16,5 +16,8 @@ public class Same {
         } else {
             System.out.println("Different");
         }
+
+        // Closing the scanner, so the error disappears
+        scanner.close();
     }
 }

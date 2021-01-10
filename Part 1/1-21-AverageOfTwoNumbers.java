@@ -13,5 +13,7 @@ public class AverageOfTwoNumbers {
         int second = Integer.valueOf(scanner.nextLine());
         System.out.println("The average is " + (1.0 * (first + second) / 2));
 
+        // Closing the scanner, so the error disappears
+        scanner.close();
     }
 }

@@ -13,5 +13,7 @@ public class MessageThreeTimes {
         System.out.println(message);
         System.out.println(message);
         System.out.println(message);
+        // Closing the scanner
+        scanner.close();
     }
 }

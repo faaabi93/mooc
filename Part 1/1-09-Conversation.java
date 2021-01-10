@@ -12,5 +12,7 @@ public class Conversation {
         System.out.println("Oh, how interesting. Tell me more!");
         String secondMessage = scanner.nextLine();
         System.out.println("Thanks for sharing!");
+        // Closing the scanner, so the error disappears
+        scanner.close();
     }
 }

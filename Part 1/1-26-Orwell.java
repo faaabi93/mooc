@@ -12,5 +12,8 @@ public class Orwell {
         if (number == 1984) {
             System.out.println("Orwell");
         }
+
+        // Closing the scanner, so the error disappears
+        scanner.close();
     }
 }

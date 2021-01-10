@@ -11,5 +11,7 @@ public class BooleanInput {
         boolean value = Boolean.valueOf(scanner.nextLine());
         System.out.println("True or false? " + value);
 
+        // Closing the scanner, so the error disappears
+        scanner.close();
     }
 }

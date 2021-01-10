@@ -14,5 +14,8 @@ public class Password {
         } else {
             System.out.println("Off with you!");
         }
+
+        // Closing the scanner, so the error disappears
+        scanner.close();
     }
 }

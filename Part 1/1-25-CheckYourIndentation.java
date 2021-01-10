@@ -18,5 +18,7 @@ public class CheckYourIndentation {
             System.out.println("The second was larger than the first!");
         }
 
+        // Closing the scanner, so the error disappears
+        scanner.close();
     }
 }

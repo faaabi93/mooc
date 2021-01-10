@@ -9,5 +9,8 @@ public class SecondsInADay {
         int days = Integer.valueOf(scanner.nextLine());
         int seconds = days * 24 * 60 * 60;
         System.out.println(seconds);
+
+        // Closing the scanner, so the error disappears
+        scanner.close();
     }
 }

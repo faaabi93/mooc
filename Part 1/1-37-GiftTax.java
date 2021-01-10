@@ -21,5 +21,8 @@ public class GiftTax {
         } else {
             System.out.println("No tax!");
         }
+
+        // Closing the scanner, so the error disappears
+        scanner.close();
     }
 }

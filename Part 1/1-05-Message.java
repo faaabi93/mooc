@@ -11,6 +11,7 @@ public class Message {
         String message = scanner.nextLine();
 
         System.out.println(message);
-
+        // closing the scanner, so the error disappears.
+        scanner.close();
     }
 }

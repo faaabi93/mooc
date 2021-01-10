@@ -14,5 +14,8 @@ public class Positivity {
         } else {
             System.out.println("The number is not positive.");
         }
+
+        // Closing the scanner, so the error disappears
+        scanner.close();
     }
 }

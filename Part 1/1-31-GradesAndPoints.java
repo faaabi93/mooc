@@ -24,5 +24,8 @@ public class GradesAndPoints {
         } else {
             System.out.println("Impossible!");
         }
+
+        // Closing the scanner, so the error disappears
+        scanner.close();
     }
 }

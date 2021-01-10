@@ -20,5 +20,7 @@ public class DifferentTypesOfInput {
         System.out.println("You gave the double " + number2);
         System.out.println("You gave the boolean " + trueFlase);
 
+        // Closing the scanner, so the error disappears
+        scanner.close();
     }
 }

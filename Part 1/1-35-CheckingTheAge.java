@@ -12,5 +12,8 @@ public class CheckingTheAge {
         } else {
             System.out.println("Impossible!");
         }
+
+        // Closing the scanner, so the error disappears
+        scanner.close();
     }
 }
