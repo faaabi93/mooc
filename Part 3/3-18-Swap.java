@@ -33,6 +33,8 @@ public class Swap {
             System.out.println(array[index]);
             index++;
         }
+
+        scanner.close();
     }
 
 }

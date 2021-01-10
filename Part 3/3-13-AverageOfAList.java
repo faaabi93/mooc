@@ -22,10 +22,8 @@ public class AverageOfAList {
         }
         double average = 1.0 * sum / numbers.size();
         System.out.println("Average: " + String.valueOf(average));
-        // implement here a program, that first reads user input
-        // adding them on a list until user gives -1.
-        // Then it computes the average of the numbers on the list
-        // and prints it.
-        
+
+        // Closing the scanner, so the error disappears
+        scanner.close();
     }
 }

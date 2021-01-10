@@ -29,6 +29,8 @@ public class IndexWasNotFound {
         if(found == false){
             System.out.println(String.valueOf(searching) + " was not found.");
         }
+
+        scanner.close();
     }
 
 }

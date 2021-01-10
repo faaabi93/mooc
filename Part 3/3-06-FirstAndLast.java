@@ -19,5 +19,7 @@ public class FirstAndLast {
             list.add(input);
         }
 
+        // Closing the scanner, so the error disappears
+        scanner.close();
     }
 }

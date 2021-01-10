@@ -27,6 +27,9 @@ public class IndexOfSmallest {
             if(numbers.get(i) == smallest){
                 System.out.println("Found at index: " + String.valueOf(i));
             }
-        }       
+        }   
+        
+        // Closing the scanner, so the error disappears
+        scanner.close();
     }
 }

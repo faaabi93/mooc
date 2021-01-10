@@ -22,5 +22,7 @@ public class OnlyTheseNumbers {
             numbers.add(number);
         }
 
+        // Closing the scanner, so the error disappears
+        scanner.close();
     }
 }

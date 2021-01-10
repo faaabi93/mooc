@@ -26,5 +26,6 @@ public class PersonalDetails {
             sum += Integer.valueOf(splitted[1]);
             count++;
         }
+        scanner.close();
     }
 }

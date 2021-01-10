@@ -26,6 +26,7 @@ public class GreatestInList {
         
         System.out.println("");
 
-        // implement finding the greatest number in the list here
+        // Closing the scanner, so the error disappears
+        scanner.close();
     }
 }

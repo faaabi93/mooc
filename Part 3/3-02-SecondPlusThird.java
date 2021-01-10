@@ -18,5 +18,8 @@ public class SecondPlusThird {
         }
 
         System.out.println(numbers.get(1) + numbers.get(2));
+
+        // Closing the scanner, so the error disappears
+        scanner.close();
     }
 }

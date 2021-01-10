@@ -31,5 +31,6 @@ public class Login {
         if(!login){
             System.out.println("Incorrect username or passowrd");
         }
+        scanner.close();
     }
 }

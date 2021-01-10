@@ -24,5 +24,7 @@ public class OnTheList {
             System.out.println(toSearch + " was not found!");
         }
 
+        // Closing the scanner, so the error disappears
+        scanner.close();
     }
 }

@@ -13,7 +13,6 @@ public class IndexOf {
             if (input == -1) {
                 break;
             }
-
             list.add(input);
         }
 
@@ -26,5 +25,8 @@ public class IndexOf {
                 System.out.println(String.valueOf(search) + " is at index " + String.valueOf(i));
             }
         }
+
+        // Closing the scanner, so the error disappears
+        scanner.close();
     }
 }

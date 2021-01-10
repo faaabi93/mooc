@@ -11,6 +11,9 @@ public class SumOfArray {
         int index = 0;
         int sum = 0;
         // Tried it with a while loop instead of the usual for-loop.
+        // for(int i = 0; i < array.length(); i++) {
+        //      ...
+        // }
         while(index < array.length){
             sum += array[index];
             index++;

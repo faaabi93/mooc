@@ -17,6 +17,6 @@ public class AgeOfTheOldest {
                 age = Integer.valueOf(splits[1]);
             }
         }
-
+        scanner.close();
     }
 }

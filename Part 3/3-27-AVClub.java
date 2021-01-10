@@ -17,5 +17,6 @@ public class AVClub {
                 }
             }
         }
+        scanner.close();
     }
 }

@@ -18,5 +18,8 @@ public class ThirdElement {
         }
 
         System.out.println(list.get(2));
+        
+        // Closing the scanner, so the error disappears
+        scanner.close();
     }
 }

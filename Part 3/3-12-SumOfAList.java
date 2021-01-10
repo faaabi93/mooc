@@ -23,5 +23,8 @@ public class SumOfAList {
             sum += number;
         }
         System.out.println("Sum: " + String.valueOf(sum));
+
+        // Closing the scanner, so the error disappears
+        scanner.close();
     }
 }

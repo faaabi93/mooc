@@ -13,6 +13,6 @@ public class LastWords {
             String[] splits = input.split(" ");
             System.out.println(splits[splits.length - 1]);
         }
-
+        scanner.close();
     }
 }

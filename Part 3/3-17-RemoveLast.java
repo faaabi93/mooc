@@ -12,6 +12,8 @@ public class RemoveLast {
         System.out.println(strings);
     }
     public static void removeLast(ArrayList<String> strings){
+        // Should only work, if the list has elements in it.
+        // Other possible solution is an .isEmtpy().check.
         if(strings.size() > 0){
             strings.remove(strings.size()-1);
         } else {

@@ -13,5 +13,6 @@ public class PrintThrice {
             System.out.print(word);
         }
 
+        scanner.close();
     }
 }

@@ -21,5 +21,6 @@ public class NameOfTheOldest {
                 name = splitted[0];
             }
         }
+        scanner.close();
     }
 }

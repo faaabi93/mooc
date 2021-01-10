@@ -20,5 +20,7 @@ public class RememberTheseNumbers {
             numbers.add(luku);
         }
 
+        // Closing the scanner, so the error disappears
+        scanner.close();
     }
 }

@@ -17,7 +17,8 @@ public class IoobProgram {
         for (String line : lines) {
             System.out.println(line);
         }
-    
+        
+    // list.size() = 6. Getting the 7th will result in the error
     System.out.println(lines.get(7));
 
     }
