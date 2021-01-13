@@ -1,17 +1,17 @@
 public class Main {
     public static void main(String[] args) {
-        // Test for Part 1:
-        /*Item book = new Item("The lord of the rings", 2);
+        //Test for Part 1:
+        Item book = new Item("The lord of the rings", 2);
         Item phone = new Item("Nokia 3210", 1);
 
         System.out.println("The book's name: " + book.getName());
         System.out.println("The book's weight: " + book.getWeight());
 
         System.out.println("Book: " + book);
-        System.out.println("Phone: " + phone);*/
+        System.out.println("Phone: " + phone);
 
-        // Test for Part 2 & 3:
-        /*Item book = new Item("Lord of the rings", 2);
+        /* Test for Part 2 & 3:
+        Item book = new Item("Lord of the rings", 2);
         Item phone = new Item("Nokia 3210", 1);
         Item brick = new Item("brick", 4);
 
@@ -27,8 +27,8 @@ public class Main {
         suitcase.addItem(brick);
         System.out.println(suitcase);*/
 
-        // Test for Part 4:
-        /*Item book = new Item("Lord of the rings", 2);
+        /* Test for Part 4:
+        Item book = new Item("Lord of the rings", 2);
         Item phone = new Item("Nokia 3210", 1);
         Item brick = new Item("brick", 4);
 
@@ -41,8 +41,8 @@ public class Main {
         suitcase.printItems();
         System.out.println("Total weight: " + suitcase.totalWeight() + " kg");*/
 
-        // Test for Part 5:
-        /*Item book = new Item("Lord of the rings", 2);
+        /* Test for Part 5:
+        Item book = new Item("Lord of the rings", 2);
         Item phone = new Item("Nokia 3210", 1);
         Item brick = new Item("Brick", 4);
 
@@ -54,8 +54,8 @@ public class Main {
         Item heaviest = suitcase.heaviestItem();
         System.out.println("Heaviest item: " + heaviest);*/
 
-        // Test for Part 6:
-        /*Item book = new Item("Lord of the rings", 2);
+        /* Test for Part 6:
+        Item book = new Item("Lord of the rings", 2);
         Item phone = new Item("Nokia 3210", 1);
         Item brick = new Item("brick", 4);
 
@@ -72,7 +72,7 @@ public class Main {
 
         System.out.println(hold);*/
 
-        // Test for Part 7:
+        /* Test for Part 7:
         Item book = new Item("Lord of the rings", 2);
         Item phone = new Item("Nokia 3210", 1);
         Item brick = new Item("brick", 4);
@@ -89,6 +89,6 @@ public class Main {
         hold.addSuitcase(pekkasCase);
 
         System.out.println("The suitcases in the hold contain the following items:");
-        hold.printItems();
+        hold.printItems();*/
     }
 }

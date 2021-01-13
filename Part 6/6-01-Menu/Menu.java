@@ -24,5 +24,4 @@ public class Menu {
     public void clearMenu() {
         this.meals.clear();
     }
-    // implement the required methods here
 }

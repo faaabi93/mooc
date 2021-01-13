@@ -5,16 +5,15 @@ public class Main {
 
         // Try out your class here
         // Test for Part 1:
-        /*
+        
         Stack s = new Stack();
         System.out.println(s.isEmpty());
         System.out.println(s.values());
         s.add("Value");
         System.out.println(s.isEmpty());
-        System.out.println(s.values()); */
+        System.out.println(s.values());
 
-        // Test for Part 2.1:
-        /*
+        /* Test for Part 2.1:
         Stack s = new Stack();
         System.out.println(s.isEmpty());
         System.out.println(s.values());
@@ -26,8 +25,7 @@ public class Main {
         System.out.println(s.values());
         System.out.println(taken); */
 
-        // Test for Part 2.2:
-        /*
+        /*Test for Part 2.2:
         Stack s = new Stack();
         s.add("1");
         s.add("2");
