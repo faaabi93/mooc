@@ -5,6 +5,8 @@ Created by the [University of Helsinki](https://java-programming.mooc.fi).
 
 The repository for the Java Programming II course can be found [here](https://github.com/faaabi93/mooc-java-programming-ii).
 
+The certificate, which one gets after completing the course, can be seen and validated [here](https://certificates.mooc.fi/validate/07vootsiqj0d).
+
    ![enter image description here](https://buildingai.elementsofai.com/illustrations/logos/university-logo.svg)  
 [The University of Helsinki](https://www.helsinki.fi/) is the oldest and largest institution of academic education in Finland. Through the power of science, the University has contributed to society, education and welfare since 1640.
 
